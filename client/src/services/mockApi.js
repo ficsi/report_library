@@ -7,9 +7,9 @@ export const fetchReports = async () => {
 				"Customer Details",
 				"Inventory Summary",
 				"Financial Overview",
-				"Employee Performance"
+				"Employee Performance",
 			]);
-		}, 1000); // Simulating a 1-second delay
+		}, 1000);
 	});
 };
 
@@ -22,9 +22,9 @@ export const fetchExportFormats = async () => {
 				"DOCX",
 				"XLSX",
 				"HTML",
-				"PPTX"
+				"PPTX",
 			]);
-		}, 1000); // Simulating a 1-second delay
+		}, 1000);
 	});
 };
 
